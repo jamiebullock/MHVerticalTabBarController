@@ -72,4 +72,11 @@
  */
 - (void)setSelectedBackgroundImage:(UIImage *)selectedBackgroundImage;
 
+/**
+ *  Sets the selected tab's background color
+ *
+ *  @param selectedBackgroundColor selectedBackgroundColor color to set the tab background to
+ */
+- (void)setSelectedBackgroundColor:(UIColor *)selectedBackgroundColor;
+
 @end

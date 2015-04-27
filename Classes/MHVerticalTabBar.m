@@ -131,6 +131,11 @@
     [self.selectedBackgroundView addSubview:imageView];
 }
 
+- (void)setSelectedBackgroundColor:(UIColor *)selectedBackgroundColor
+{
+    self.selectedBackgroundView.backgroundColor = selectedBackgroundColor;
+}
+
 - (void)buttonPressed:(MHVerticalTabBarButton *)button {
     NSUInteger index = [self.tabBarButtons indexOfObject:button];
     [self setSelectedIndex:index animated:YES];
